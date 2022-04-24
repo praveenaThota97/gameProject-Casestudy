@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+.tile{
+    color: white;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color:red;
+}
+p{
+    text-align: center;
+    color: white;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.tile{
+    border: 1px solid white;
+    min-height: 100px;
+    min-width: 100px;
+    align-items: center;
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+button{
+    background-color: red;
+    margin: 0 auto;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

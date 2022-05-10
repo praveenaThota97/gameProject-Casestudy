@@ -18,10 +18,19 @@ section{
     justify-content: center;
 }
 .tile{
+    display: flex;
+    font-size: 30px;
     border: 1px solid white;
     min-height: 100px;
     min-width: 100px;
+    justify-content: center;
     align-items: center;
+}
+#resultsDisplayName{
+    color:yellow;
+}
+#resultsDisplay{
+    display:none;
 }
 footer{
     text-align: center;
